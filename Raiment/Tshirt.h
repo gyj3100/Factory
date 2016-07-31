@@ -6,5 +6,6 @@
 class ITshirt {
 public:
 	virtual void show() = 0;
+	virtual ~ITshirt() {}
 };
 #endif
